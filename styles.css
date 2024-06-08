@@ -7,6 +7,49 @@ body {
     color: #fff;
 }
 
+.text-1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(0, 191, 165);
+    letter-spacing: 2px;
+
+}
+
+.text-2 {
+    margin: 0px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.green-text {
+    font-size: 70px;
+    font-weight: bold;
+    color: #00bfa5;
+}
+
+.text-3 {
+    margin: 0;
+    width: 390px;
+    font-size: 15px;
+    font-weight: normal;
+    color: grey;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    justify-content: center;
+}
+
+.line {
+    margin: 0PX;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #00bfa5;
+}
+
+/* End General Styles */
+
 /* Start Bar */
 .bar {
     display: flex;
@@ -16,12 +59,12 @@ body {
     background-color: #111;
 }
 
-
 .logo {
-    margin-left: 100px;
+    margin-left: 190px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .logo a {
@@ -38,25 +81,26 @@ body {
     letter-spacing: 3px;
 }
 
-.bar nav {
+.bar .menu {
     display: flex;
     align-items: center;
     align-items: center;
 
 }
 
-nav ul {
+.menu ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
+
 }
 
-nav ul li {
+.menu ul li {
     margin-left: 30px;
 }
 
-nav ul li a {
+.menu ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -64,7 +108,7 @@ nav ul li a {
     transition: color 0.3s;
 }
 
-nav ul li a:hover {
+.menu ul li a:hover {
     color: #00bfa5;
 }
 
@@ -73,66 +117,24 @@ nav ul li a:hover {
     color: #00bfa5;
     text-decoration: none;
     font-size: 15px;
+
 }
 
 /* End Bar */
 
-/* Start section ome */
+/* Start section one creative agency*/
 .section-one {
     display: flex;
     justify-content: space-between;
     position: relative;
     background-image: linear-gradient(to left, #375c57, #202121, black);
-
 }
 
 .left-sec {
     width: 650px;
     display: block;
-    margin-top: 50px;
-    margin-left: 110px;
-}
-
-.left-sec span {
-    font-size: 70px;
-    font-weight: bold;
-    color: #00bfa5;
-}
-
-.left-sec .text-1 {
-    font-size: 18px;
-    font-weight: 500;
-    color: #00bfa5;
-    letter-spacing: 2px;
-
-}
-
-.left-sec .text-2 {
-    margin: 0px;
-    font-size: 70px;
-    font-weight: bold;
-    color: white;
-    line-height: 1;
-    margin-bottom: 5px;
-
-}
-
-.left-sec .line {
-    margin: 0PX;
-    margin-bottom: 5px;
-    font-size: 20px;
-    color: #00bfa5;
-}
-
-.left-sec .text-3 {
-    margin: 0;
-    width: 330px;
-    font-size: 10px;
-    font-weight: bold;
-    color: grey;
-    margin-bottom: 50px;
-    line-height: 1.5;
-    justify-content: center;
+    margin-top: 80px;
+    margin-left: 200px;
 }
 
 .left-sec .btn-text {
@@ -190,6 +192,370 @@ nav ul li a:hover {
 }
 
 .right-sec img {
-    width: 650px;
+    margin-top: -40px;
+    margin-bottom: -5px;
+    width: 800px;
     height: 600px;
+    opacity: 0.7;
 }
+
+/* End section one */
+
+/* Start section two our sevices*/
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.section-two .left-sec {
+    width: 650px;
+    display: block;
+    margin-left: 200px;
+}
+
+.section-two .btn {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-two button {
+    width: 100px;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #00bfa5;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+
+.section-two .right-sec {
+    width: 650px;
+    display: flex;
+    margin-top: 60px;
+    margin-right: 200px;
+    justify-items: center;
+    align-items: center;
+}
+
+.section-two .right-sec .black-box {
+    width: 300px;
+    display: block;
+    background-color: #111;
+    text-align: center;
+}
+
+.section-two .right-sec img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.section-two .right-sec h4 {
+    color: white;
+    font-size: 24px;
+    margin: 10px 0 10px;
+}
+
+.section-two .right-sec p {
+    color: gray;
+    font-size: 15px;
+    margin: 0 30px 0 30px;
+    padding-bottom: 10px;
+    line-height: 1.6;
+}
+
+.section-two .right-sec .green-box {
+    margin-top: 10px;
+    background-image: linear-gradient(to top, rgba(0, 189, 164, 0.5), rgba(0, 189, 164, 0.1), rgba(0, 189, 164, 0));
+    width: 300px;
+    display: block;
+    background-color: #111;
+    text-align: center;
+}
+
+.section-two .right-sec .col-two {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.col-two .black-box {
+    margin-top: 10px;
+}
+
+/* End section two */
+
+/* Start section three about us */
+
+.section-three {
+    display: flex;
+    background-color: #111;
+}
+
+.section-three .left-sec img {
+    height: 470px;
+}
+
+.section-three p {
+    width: 90%;
+}
+
+.section-three .right-sec {
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 90px;
+}
+
+.section-three .right-sec .bot-side {
+    display: flex;
+    margin-top: 50px;
+}
+
+.section-three .left-img {
+    display: flex;
+    justify-items: center;
+    width: 400px;
+}
+
+.section-three .right-img {
+    display: flex;
+    justify-items: center;
+    width: 400px;
+}
+
+.section-three .right-sec img {
+    width: 100px;
+    margin: 0px;
+    height: 100px;
+}
+
+.section-three .texts {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.texts h2 {
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+}
+
+.texts p {
+    font-size: 15px;
+    color: gray;
+    line-height: 1.6;
+}
+
+/* End section three */
+
+/* Start section four  background img */
+
+.section-four {
+    padding: 0px 300px 0px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(20, 125, 111), rgba(0, 252, 219, 0.1), rgba(0, 189, 164, 0)),
+        url("images/sec1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.section-four img {
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+
+}
+
+.section-four div {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-four h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #00bfa5;
+    line-height: 1;
+    margin-bottom: 5px;
+    margin: 0px;
+}
+
+.section-four span {
+    color: white;
+    margin: 0px;
+    font-size: 30px;
+}
+
+.section-four p {
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+}
+
+/* End section four */
+
+/* Start section five */
+
+.section-five {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #000;
+    margin-bottom: 80px;
+}
+
+.section-five .left-sec {
+    margin: 0;
+    margin-top: 80px;
+    width: 700px
+}
+
+.section-five .top-sec {
+    display: flex;
+    margin-left: 200px;
+
+}
+
+.section-five .text-3 {
+    margin: 50px 0 50px;
+    width: 800px;
+    line-height: 1.8;
+}
+
+.section-five .text-4 {
+    width: 600px;
+    font-size: 15px;
+}
+
+.section-five i {
+    color: #00bfa5;
+    font-size: 18px;
+    font-weight: 900px;
+    margin-right: 5px;
+}
+
+.section-five .top-sec img {
+    height: 380px;
+    width: 420px;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.section-five .bot-sec {
+    display: flex;
+    margin: 0px 0 0 200px;
+}
+
+.section-five .bot-sec img {
+    height: 380px;
+    width: 420px;
+    margin-right: 5px;
+}
+
+/* End section five   4 pics */
+
+
+/* Start section six  background img */
+
+.section-six {
+    padding: 0px 250px 0px 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    height: 35vh;
+    background-image: linear-gradient(to left, rgb(20, 125, 111), rgba(0, 252, 219, 0.1), rgba(0, 189, 164, 0)),
+        url("images/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.section-six img {
+    width: 200px;
+    height: 150px;
+    margin: 0px;
+
+}
+
+/* End section six */
+
+/* Start section seven why choose us */
+.section-seven {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.section-seven .left-sec {
+    width: 680px;
+    display: block;
+    margin-left: 200px;
+}
+
+.section-seven .left-sec img {
+    width: 680px;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.section-seven .right-sec {
+    display: block;
+    margin-left: 20px;
+    margin-right: 150px;
+    margin-top: 180px;
+}
+
+.section-seven .text-3 {
+    width: 650px;
+    line-height: 1.8;
+    color: gray;
+    margin-bottom: 80px;
+}
+
+.section-seven .text-icon {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.section-seven .icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 191, 165);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon-circle i {
+    color: black;
+    font-size: 18px;
+    margin: 0;
+}
+
+.section-seven .right-sec img {
+    width: 700px;
+    height: 400px;
+    margin-top: 80px;
+}
+
+/* End section seven */
